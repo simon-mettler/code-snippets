@@ -1,0 +1,31 @@
+// hide fonts while loading
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+a, 
+li {
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+// fade-in fonts if loaded
+.wf-active,
+.wf-inactive {
+
+  h1, 
+  h2,   
+  h3, 
+  h4, 
+  h5, 
+  h6, 
+  p, 
+  a, 
+  li {
+    opacity: 1;
+  }
+
+}
