@@ -1,1 +1,1 @@
-# wordpress-snippets
+# Code Snippets
