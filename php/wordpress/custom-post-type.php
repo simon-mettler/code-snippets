@@ -25,6 +25,7 @@ function custom_post_type() {
           'label'               => __( 'movies', 'textdomain' ),
           'description'         => __( 'Movie news and reviews', 'textdomain' ),
           'labels'              => $labels,
+          'menu_icon'           => 'dashicons-video-alt3',
           // Features this CPT supports in Post Editor
           'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
           // You can associate this CPT with a taxonomy or custom taxonomy. 
